@@ -9,4 +9,4 @@ HOCs
 Github Actions
 Deployment on AWS
 Docker & Kubernetes
-AWS API Gateway, Lambda, SNS, Terraform, CloudFormation, S3, CloudFront
+AWS API Gateway, Lambda, SNS, Terraform, CloudFormation, S3, CloudFront, ECS, EKS
