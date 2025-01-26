@@ -4,7 +4,7 @@ import { render, screen } from "@testing-library/react";
 import { Home } from "../src/Home";
 
 describe("<Home />", () => {
-  it("should render component", () => {
+  it("should render Home component", () => {
     render(<Home />);
     const element = screen.getByText("Home");
     expect(element).toBeInTheDocument();
