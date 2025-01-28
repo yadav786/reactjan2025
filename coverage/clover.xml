@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1738103648324" clover="3.2.0">
-  <project timestamp="1738103648324" name="All files">
+<coverage generated="1738103956215" clover="3.2.0">
+  <project timestamp="1738103956215" name="All files">
     <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6" elements="16" coveredelements="16" complexity="0" loc="10" ncloc="10" packages="1" files="3" classes="3"/>
     <file name="Contact.js" path="C:\Users\e123466\Documents\target2025\ReactJan2025\src\Contact.js">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
