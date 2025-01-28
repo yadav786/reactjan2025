@@ -1,5 +1,9 @@
 const config = {
-    testEnvironment: "jsdom",
+    collectCoverage: true,
+    collectCoverageFrom: ['src/*.{js}'],
+    coverageDirectory: 'coverage',
+    testEnvironment: 'jsdom',
+    setupFilesAfterEnv: ['<rootDir>/jest.setup.js']
   };
   
   module.exports = config;
