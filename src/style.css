@@ -68,3 +68,33 @@ p {
 .model-confirmation > button:nth-child(1){
   background-color:cornflowerblue;
 }
+
+.star-rating {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .star-rating:nth-child(1) {
+    font-size: 20px;
+  }
+  
+  .rating {
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  .rating > span {
+    font-size: 40px;
+    cursor: pointer;
+  }
+  
+  .rating > span.on {
+    color: #00D000;
+  }
+  
+  .rating > span.off {
+    color: #000000;
+  }
+  
