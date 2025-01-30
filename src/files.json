@@ -1,0 +1,35 @@
+
+{
+    "type": "folder",
+    "name": "root",
+    "items": [
+    {
+      "type": "file",
+      "name": "package.json"
+    },
+    {
+      "type": "folder",
+      "name": "src",
+      "items": [{
+        "type": "folder",
+        "name": "components",
+        "items": [
+          {
+            "type": "file",
+            "name": "Home.jsx"
+          }
+        ]
+      }, 
+      {
+        "type": "folder",
+        "name": "pages",
+        "items": [
+          {
+            "type": "file",
+            "name": "About.jsx"
+          }
+        ]
+      }]
+    }
+  ]
+  }
