@@ -8,6 +8,16 @@ export function UserLists() {
             setUsers(dataRes);
         }
         fetchData();
+        async function fetchDataHello() {
+            try {
+                let dataRes = await fetch('/api');
+            dataRes = await dataRes.text();
+            setUsers(dataRes);
+            } catch(err) {
+                console.log(`getting network error ${err?.message}`);
+            }
+        }
+        fetchDataHello();
     }, []);
     return <>
     <h1>User Lists</h1>
