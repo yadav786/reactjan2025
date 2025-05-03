@@ -10,9 +10,9 @@ export function UserLists() {
         fetchData();
         async function fetchDataHello() {
             try {
-                let dataRes = await fetch('/api');
-            dataRes = await dataRes.text();
-            setUsers(dataRes);
+                let dataRes = await fetch('/api/');
+                dataRes = await dataRes.text();
+                console.log(dataRes);
             } catch(err) {
                 console.log(`getting network error ${err?.message}`);
             }
